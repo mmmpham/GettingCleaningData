@@ -10,7 +10,7 @@ And the data for the project can be downloaded at this website:
 [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
 ## Program Files
-The following files are included
+The following files are included:
 - 'run_analysis.R'
 This is the main R program that does the following:
     - Reads in the activity labels and the feature labels;
