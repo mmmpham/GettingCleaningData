@@ -11,17 +11,17 @@ And the data for the project can be downloaded at this website:
 
 ## Program Files
 The following files are included:
-- 'run_analysis.R'
+- `run_analysis.R`
 This is the main R program that does the following:
     - Reads in the activity labels and the feature labels;
-    - Formats the feature labels by removing non-word characters with a dot '.';
-    - Creates a data frame (by calling 'get_dataset.R') by binding the subject, features and measurements for each of the test and training sets;
-    - Combines the test and training sets to 'mergedData';
-    - Extracts only the mean and standard deviation measurements (i.e. those with 'mean' or 'std' in their names) to a new data set called 'meanStdData';
-    - Creates a second data set with the average for each activity and each subject 'aveData'
-- 'get_dataset.R'
+    - Formats the feature labels by removing non-word characters with a dot `.`;
+    - Creates a data frame (by calling `get_dataset.R`) by binding the subject, features and measurements for each of the test and training sets;
+    - Combines the test and training sets to `mergedData`;
+    - Extracts only the mean and standard deviation measurements (i.e. those with `mean` or `std` in their names) to a new data set called `meanStdData`;
+    - Creates a second data set with the average for each activity and each subject `aveData`
+- `get_dataset.R`
 This is a helper program to create a data frame in the test and training sets.
 
 ## How to Run
-- Make sure both the 'run_analysis.R' and 'get_dataset.R' are in the working directory;
+- Make sure both the `run_analysis.R` and `get_dataset.R` are in the working directory;
 - Make sure that all the relevant data files are also in the working directory.
