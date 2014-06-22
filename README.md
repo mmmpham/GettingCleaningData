@@ -2,9 +2,12 @@
 
 ## Description
 The goal of this project is to prepare tidy data for later analysis.
+
 The data in this project is the data collected from the accelerometers from the Samsung Galaxy SII smartphone.
+
 A full description is available at this site:
 [http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+
 And the data for the project can be downloaded at this website:
 
 [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
